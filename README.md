@@ -1,8 +1,8 @@
 # Tic-Tac-Toe reinforcement learning practice
 
-This repo teaches an agent to play tic-tac-toe using the standard Q-learning algorithm. The algorithm also includes a form of action masking where the environment returns only feasible actions (locations on the board without an X or O) and the agent only evaluates the Q-Value of those feasible states.
+This repo contains files that teaches an agent to play tic-tac-toe using the standard Q-learning algorithm. The algorithm also includes a form of action masking where the environment returns only feasible actions (locations on the board without an X or O) and the agent only evaluates the Q-Value of those feasible states.
 
-Users can play against another human or the trained agent. When a human plays against the agent, the agent uses imitation learning and uses the game history and outcome to update its policy. A trained agent is located in the agents](agents) folder for uses to continue training or to play against.
+Users can play against another human or the trained agent. When a human plays against the agent, the agent uses imitation learning and uses the game history and outcome to update its policy. A trained agent is located in the agents](agents) folder for uses to continue training or to play against. 
 
 ![tictactoe](/images/tictactoe_screenshot.png)
 
